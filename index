@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="characters">
+        <div onclick="selectHero('Oshawott')" id="Oshawott" class="character">
+          <div class="character-name">
+            <span>Oshawott</span>
+          </div>
+          <div class="charcter-info">
+            <div class="character-image">
+              <img
+                src="https://numpaints.com/wp-content/uploads/2022/03/pokemon-Oshawott-paint-by-numbers.jpg"
+                alt="Oshawott"
+              />
+            </div>
+            <div class="character-stats">
+              <ul>
+                <li>
+                  <span>HP:</span>
+                  <span id="Oshawott-hp">100</span>
+                </li>
+                <li>
+                  <span>Str:</span>
+                  <span id="Oshawott-str">100</span>
+                </li>
+                <li>
+                  <span>Def:</span>
+                  <span id="Oshawott-def">100</span>
+                </li>
+                <li>
+                  <span>velocidad:</span>
+                  <span id="Oshawott-velocidad">100</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          
+
+
+        </div>
+
+        <div id="vs">
+          <img src="https://img.freepik.com/vector-gratis/versus-logo-vs-letras-deportes-competencia-lucha_29865-1568.jpg" alt="">
+
+
+        </div>
+      
+
+        <div onclick="selectHero('mage')" id="mage" class="character">
+          <div class="character-name">
+            <span>Pikachu</span>
+          </div>
+          <div class="charcter-info">
+            <div class="character-image">
+              <img src="https://nintenduo.com/wp-content/uploads/2022/05/Pokemon-Home-Cambio-Ataques-01.webp" alt="Pikachu" />
+            </div>
+            <div class="character-stats">
+              <ul>
+                <li>
+                  <span>HP:</span>
+                  <span id="mage-hp">100</span>
+                </li>
+                <li>
+                  <span>Str:</span>
+                  <span id="mage-str">100</span>
+                </li>
+                <li>
+                  <span>Def:</span>
+                  <span id="mage-def">100</span>
+                </li>
+                <li>
+                  <span>velocidad:</span>
+                  <span id="mage-velocidad">100</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+         <div class="enemies">
+         <div class="enemy-name">
+            <span id="enemy-name"></span>
+          </div>
+          <div class="enemy-info">
+            <div class="enemy-image">
+              <img id="enemy-image"
+
+                alt="enemy"
+              />
+            </div>
+            <div class="enemy-stats">
+              <ul>
+                <li>
+                  <span>HP:</span>
+                  <span id="enemy-hp">100</span>
+                </li>
+                <li>
+                  <span>Str:</span>
+                  <span id="enemy-str">100</span>
+                </li>
+                <li>
+                  <span>Def:</span>
+                  <span id="enemy-def">100</span>
+                </li>
+                <li>
+                  <span>velocidad:</span>
+                  <span id="enemy-velocidad">100</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+        <div class="actions">
+          <div class="start">
+        
+        <a href="#" class="rainbow-button" onclick="startGame()"  id="start" alt="Elige contrincante"></a>
+      </div>
+
+
+      <div class="actionsButtons">
+        
+        <a href="#" class="rainbow-button"  id="Ataque" alt="Ataque"></a>
+        <a href="#" class="rainbow-button"  id="Defensa"alt="Defensa"></a>
+        <a href="#" class="rainbow-button"  id="special"alt="Ataque Especial"></a>
+        
+       
+      </div>
+
+      
+      
+
+      
+        </div>
+        <div class="log">
+          <div id="log">
+            <span id="text"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
