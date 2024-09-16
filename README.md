@@ -1,0 +1,1 @@
+Se trata de un juego basado en pokemon con javascript. Tu objetivo es derrtorar a los contrincantes. Tu compañero sera Oshawott y tendras que enfrentarte a Pikachu, Bulbasur o Charmander. Dispondras un ataque, una defesa y un ataque especial. Cada pokemon dispone de sus propias estadisticas para el combate.
